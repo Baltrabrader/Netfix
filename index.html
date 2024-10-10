@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="netflix">
+            <img src="./Bilder/netflix-logo-640x172.jpg" alt="Netflix Logo">
+        </div>
+        
+        <div class="text">
+            <h2>Thank you for signing up at Netflix</h2>
+            <p>Tell us more about yourself</p>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <label for="name" class="Name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <label for="age" class="Age">Age</label>
+                <input type="number" id="age" placeholder="Enter your age">
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="Email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="content-type" class="Contentype">Content Type</label>
+                <select id="content-type">
+                    <option value="Movies">Movies</option>
+                    <option value="Series">Series</option>
+                    <option value="Documentaries">Documentaries</option>
+                    <option value="Kids">Kids</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+    </div>
+</body>
+
+</html>
